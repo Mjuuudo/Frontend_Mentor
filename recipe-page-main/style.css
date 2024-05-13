@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 220px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100vw;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+section .card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 60px;
+}
+section .card img{
+    max-width: 50vw;
+    border-radius: 20px;
+}
+section h1{
+    font-size: 48px;
+    margin: 30px 0 30px 0;
+}
+section p{
+    font-size: 24px;
+    line-height: 35px;
+    color: rgb(65, 65, 65);
+    margin: 0 0 30px 0;
+}
+section .preparation{
+    background-color: rgb(252, 237, 249);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+section .preparation h3{
+    font-size: 26px;
+    font-weight: bolder;
+    color: rgb(82, 34, 128);
+}
+section .preparation ul{
+    margin: 30px 0 0 20px;
+}
+section .preparation ul li{
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    color: rgb(141, 75, 0);
+}
+section .preparation ul li span{
+    font-weight: 900;
+}
+
+section .ingredient h3{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 20px 0 0 0;
+    color: rgb(141, 75, 0);
+}
+section .ingredient ul{
+    margin: 30px 0 0 20px;
+}
+section .ingredient ul li{
+    margin:  0 0 20px 0;
+    font-size: 20px;
+}
+section hr{
+    margin: 30px 0 30px 0;
+}
+section .instruction h3{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 20px 0 0 0;
+    color: rgb(141, 75, 0);
+}
+
+section .instruction ul{
+    margin: 30px 0 0 20px;
+    list-style-type: decimal ;
+}
+section .instruction ul li{
+    list-style-position: outside;
+    margin:  0 0 20px 0;
+    font-size: 20px;
+    line-height: 40px;
+}
+section .instruction span{
+    font-weight: 900;
+}
+section .Nutrition h3{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 20px 0 20px 0;
+    color: rgb(141, 75, 0);
+}
+section .Nutrition .box{
+    display: flex;
+    flex: 0 0 100%;
+}
+section .Nutrition .box h3{
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+    color: #000;
+    padding-left: 40px;
+
+}
+section  .Nutrition .box .titles{
+    flex: 0 0 50%;
+}
+section .Nutrition .box .values{
+    flex: 0 0 50%;
+}
+section  .Nutrition .box h2{
+    margin: 20px 0 20px 0;
+    color: rgb(141, 75, 0)
+}
